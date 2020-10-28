@@ -6,10 +6,10 @@
 <!-- badges: start -->
 
 [![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/purrr)](https://cran.r-project.org/package=purrr)
-[![R build
-status](https://github.com/tidyverse/purrr/workflows/R-CMD-check/badge.svg)](https://github.com/tidyverse/purrr)
 [![Codecov test
 coverage](https://codecov.io/gh/tidyverse/purrr/branch/master/graph/badge.svg)](https://codecov.io/gh/tidyverse/purrr?branch=master)
+[![R build
+status](https://github.com/tidyverse/purrr/workflows/R-CMD-check/badge.svg)](https://github.com/tidyverse/purrr/actions)
 <!-- badges: end -->
 
 ## Overview
@@ -61,19 +61,19 @@ mtcars %>%
 This example illustrates some of the advantages of purrr functions over
 the equivalents in base R:
 
-  - The first argument is always the data, so purrr works naturally with
+-   The first argument is always the data, so purrr works naturally with
     the pipe.
 
-  - All purrr functions are type-stable. They always return the
+-   All purrr functions are type-stable. They always return the
     advertised output type (`map()` returns lists; `map_dbl()` returns
     double vectors), or they throw an error.
 
-  - All `map()` functions either accept function, formulas (used for
+-   All `map()` functions either accept function, formulas (used for
     succinctly generating anonymous functions), a character vector (used
     to extract components by name), or a numeric vector (used to extract
     by position).
 
------
+------------------------------------------------------------------------
 
 Please note that this project is released with a [Contributor Code of
 Conduct](https://purrr.tidyverse.org/CODE_OF_CONDUCT). By participating

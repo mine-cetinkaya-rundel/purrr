@@ -64,9 +64,7 @@ This example illustrates some of the advantages of purrr functions over the equi
   type (`map()` returns lists; `map_dbl()` returns double vectors), or they 
   throw an error.
   
-* All `map()` functions either accept function, formulas (used for succinctly
-  generating anonymous functions), a character vector (used to extract 
-  components by name), or a numeric vector (used to extract by position).
+* All `map()` functions either accept function, formulas (used for succinctly generating anonymous functions), a character vector (used to extract components by name), or a numeric vector (used to extract by position).
 
 -----
 
